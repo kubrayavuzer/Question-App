@@ -79,7 +79,6 @@ function Quiz() {
 
     const { totalQuestions, answeredCorrectly, answeredIncorrectly, unanswered } = calculateStatistics();
     
-    //link yönlendirmesini sağlayarak tekrar başla butonu
     const navigate = useNavigate();
     const restart = () => {
       navigate('/');//App.jsx'te verdiğimiz routerdaki yolu import edip kullanıyoruz

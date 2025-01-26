@@ -1,0 +1,141 @@
+.quiz{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quizs{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quiz-container{
+    max-width: 1400px;
+    height: 600px;
+    width: 100%;
+    background-color: rgb(45, 45, 45);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+    border: 1px solid transparent;
+    border-radius: 50px;
+}
+.quiz-containers{
+    max-width: 1400px;
+    height: 600px;
+    width: 100%;
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding: 1.5rem;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.quiz-container img {
+    width: 600px;
+    height: 350px;
+}
+.timer{
+    color: var(--text-color-2);
+    font-weight: 800;
+    font-size: 26px;
+}
+.quiz-container span{
+    color: var(--button-hover-color);
+    font-size: 22px;
+    font-weight: 800;
+}
+.options-container{
+    display: flex;
+    gap: 10px;
+}
+.options-container button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    background-color: var(--button-color);
+    color: white;
+}
+.options-container button:hover{
+    background-color: var(--button-hover-color);
+}
+.quiz-result h1{
+    color: var(--text-color);
+}
+.quiz-result p{
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 700;
+}
+.selected-answers{
+    list-style: none;
+    padding: 0;
+    color: var(--text-color-2);
+}
+.selected-answers li{
+    padding: 3px;
+    margin: 5px;
+    font-size: 16px;
+    background-color: rgba(6, 92, 100, 0.2);
+    border-radius: 8px;
+}
+.selected-answers li strong{
+    background-color: var(--text-color-2);
+    padding: 0 10px;
+    color: black;
+    border-radius: 8px;
+}
+.restart-button{
+    width: 350px;
+    height: 50px;
+    font-size: 18px;
+    background-color: var(--button-color);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    cursor: pointer;
+    color: white;
+}
+@media (max-width: 768px){
+    .quiz-container{
+        width: 100%;
+    }
+    .quiz-container img{
+        width: 300px;
+        height: 300px;
+    }
+    .options-container{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .options-container button{
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        width: 100px;
+        height: 40px;
+        font-size: 10px;
+    }
+    .quiz-containers{
+        flex-wrap: wrap;
+        background-color: #242424;
+        gap: 0;
+    }
+    .quizs{
+       height: 100%;
+    }
+    .restart-button{
+        width: 260px;
+    }
+}

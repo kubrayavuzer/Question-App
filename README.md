@@ -1,8 +1,15 @@
-# React + Vite
+# QUESTION APP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Proje Özeti
+Bu React uygulaması, kullanıcıların 10 soruluk bir test çözmesini sağlar. Her soru için 30 saniye süre verilir. İlk 4 saniye boyunca cevap şıkları gizlidir. Sorulara verilen yanıtlar (doğru, yanlış, boş) test sonunda kullanıcıya gösterilir.
 
-Currently, two official plugins are available:
+## Test Yapısı: 10 sorudan oluşur.
+## Soru Süresi: 30 saniye. İlk 4 saniye cevap şıkları görünmez.
+## Geçiş: Kullanıcılar, cevabı seçtikten sonra veya süre dolduğunda bir sonraki soruya geçerler.
+## Sonuçlar: Test sonunda doğru, yanlış ve boş cevaplar gösterilir.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Teknolojiler
+React (for UI)
+HTML
+CSS
+JavaScript

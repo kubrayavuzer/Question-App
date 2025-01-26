@@ -11,9 +11,13 @@ Sonuçlar: Test sonunda doğru, yanlış ve boş cevaplar gösterilir.
 
 ## Teknolojiler
 HTML5: İçeriği yapılandırmak için kullanıldı.
+
 CSS3: Görsel stil ve duyarlı tasarım için kullanıldı.
+
 JavaScript: Etkileşim ve form doğrulaması için kullanıldı.
+
 React.js: Dinamik soru gösterimi ve zaman yönetimi için kullanıldı.
+
 Vitest: Giriş ekranı işlevselliği testi için kullanıldı.
 
 
